@@ -1,7 +1,7 @@
 import addons, { makeDecorator } from '@storybook/addons';
 import { CHANNEL_ID } from './constants';
 
-export const withInfo = makeDecorator({
+const withInfo = makeDecorator({
   name: 'withInfo',
   parameterName: 'info',
   skipIfNoParametersOrOptions: false,
