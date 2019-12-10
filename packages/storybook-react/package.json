@@ -1,0 +1,37 @@
+{
+  "name": "storybook-react",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Addam Wassel <AWassel@rightpoint.com>",
+  "homepage": "https://github.com/awassel/storybook-addon-info/tree/master/packages/storybook-react#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awassel/storybook-addon-info.git"
+  },
+  "scripts": {
+    "prepublishOnly": "echo \"Error: not allowed to publish\" && exit 1",
+    "storybook": "cross-env NODE_ENV=development start-storybook -p 6005",
+    "build-storybook": "build-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/awassel/storybook-addon-info/issues"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.1",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.1.11",
+    "@storybook/addon-knobs": "^5.1.11",
+    "@storybook/addon-links": "^5.1.11",
+    "@storybook/addons": "^5.1.11",
+    "@storybook/react": "^5.1.11",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.0.1",
+    "storybook-addon-info": "^1.0.0-alpha"
+  }
+}
